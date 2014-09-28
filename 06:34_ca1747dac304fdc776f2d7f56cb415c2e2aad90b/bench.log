@@ -1,0 +1,7 @@
+06:34:54 type:info	message:launch benchmarker
+06:34:54 type:info	message:init environment
+06:35:07 type:info	message:run benchmark workload: 8
+06:36:07 type:info	message:finish benchmark workload: 8
+06:36:12 type:info	message:check banned ips and locked users report
+06:36:12 type:fail	reason:invalid character '<' looking for beginning of value	message:Report checking is failed. Do not send score.
+06:36:12 type:score	success:82970	fail:0	score:17926
