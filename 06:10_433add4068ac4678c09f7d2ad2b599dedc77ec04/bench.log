@@ -1,0 +1,10 @@
+06:10:27 type:info	message:launch benchmarker
+06:10:27 type:info	message:init environment
+06:10:41 type:info	message:run benchmark workload: 8
+06:11:41 type:info	message:finish benchmark workload: 8
+06:11:46 type:info	message:check banned ips and locked users report
+06:11:48 type:report	count:banned ips	value:108
+06:11:48 type:report	count:locked users	value:3205
+06:12:18 type:fail	reason:Response code should be 201, got 503	method:POST	uri:/results
+06:12:18 type:fail	message: Score sending failed	reason:Response code should be 201, got 503	method:POST	uri:/results
+06:12:18 type:score	success:71120	fail:0	score:15367
