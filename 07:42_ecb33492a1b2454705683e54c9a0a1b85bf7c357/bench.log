@@ -1,0 +1,9 @@
+07:42:15 type:info	message:launch benchmarker
+07:42:15 type:info	message:init environment
+07:42:28 type:info	message:run benchmark workload: 8
+07:43:28 type:info	message:finish benchmark workload: 8
+07:43:33 type:info	message:check banned ips and locked users report
+07:43:33 type:report	count:banned ips	value:175
+07:43:33 type:report	count:locked users	value:3270
+07:43:33 type:fail	reason:Missmatch banned IPs	message:Report checking is failed. Do not send score.
+07:43:33 type:score	success:78110	fail:0	score:16876
