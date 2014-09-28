@@ -1,0 +1,9 @@
+07:00:50 type:info	message:launch benchmarker
+07:00:50 type:info	message:init environment
+07:01:05 type:info	message:run benchmark workload: 8
+07:02:05 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+07:02:05 type:fail	reason:Request cancelled because benchmark finished (1min)	method:GET	uri:/stylesheets/bootflat.min.css
+07:02:05 type:info	message:finish benchmark workload: 8
+07:02:10 type:info	message:check banned ips and locked users report
+07:02:10 type:fail	reason:json: cannot unmarshal number into Go value of type string	message:Report checking is failed. Do not send score.
+07:02:10 type:score	success:63323	fail:2	score:16786
