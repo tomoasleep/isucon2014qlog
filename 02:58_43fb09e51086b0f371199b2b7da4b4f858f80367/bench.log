@@ -1,0 +1,3 @@
+02:58:18 type:info	message:launch benchmarker
+02:58:18 type:info	message:init environment
+02:58:18 type:fail	reason:init script failed	log:exit status 1	message:Do not run benchmark
