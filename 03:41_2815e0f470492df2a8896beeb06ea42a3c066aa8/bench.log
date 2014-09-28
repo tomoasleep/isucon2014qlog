@@ -1,0 +1,9 @@
+03:41:09 type:info	message:launch benchmarker
+03:41:09 type:info	message:init environment
+03:41:16 type:info	message:run benchmark workload: 1
+03:42:16 type:fail	reason:Request cancelled because benchmark finished (1min)	method:POST	uri:/login
+03:42:16 type:info	message:finish benchmark workload: 1
+03:42:21 type:info	message:check banned ips and locked users report
+03:42:40 type:report	count:banned ips	value:2
+03:42:40 type:report	count:locked users	value:2569
+03:42:40 type:score	success:6365	fail:1	score:1375
