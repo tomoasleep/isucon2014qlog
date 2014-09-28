@@ -1,0 +1,7 @@
+07:19:10 type:info	message:launch benchmarker
+07:19:10 type:info	message:init environment
+07:19:24 type:info	message:run benchmark workload: 8
+07:20:24 type:info	message:finish benchmark workload: 8
+07:20:29 type:info	message:check banned ips and locked users report
+07:20:29 type:fail	reason:json: cannot unmarshal number into Go value of type string	message:Report checking is failed. Do not send score.
+07:20:29 type:score	success:73820	fail:0	score:15949
