@@ -1,0 +1,8 @@
+08:28:25 type:info	message:launch benchmarker
+08:28:25 type:info	message:init environment
+08:28:38 type:info	message:run benchmark workload: 8
+08:29:38 type:info	message:finish benchmark workload: 8
+08:29:43 type:info	message:check banned ips and locked users report
+08:29:43 type:report	count:banned ips	value:197
+08:29:43 type:report	count:locked users	value:3297
+08:29:44 type:score	success:82590	fail:0	score:17844
